@@ -1,0 +1,34 @@
+.today {
+    background-color: #999;
+}
+            
+.event {
+    background-color: #000000;
+}
+
+table td, tr {
+    border: 2px solid black;
+    padding:5px 20px 5px 20px;
+    color: #000000;
+}
+
+table {
+    padding:0in 1in 0in 1.5in;
+    font-size: 50px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Roboto, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pula{
+    color: red; 
+}
+

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+header{
+  color: #FAFAFA;
+  text-align: center;
+  background-color: #00468C;
+}
+
+.tcg-top header h1{
+  font-family: Poplar STD;
+  font-size: 75px;
+  margin: 0px 0px;
+  padding-top: 50px;
+}
+
+.tcg-top header h3{
+  font-family: Arial;
+  font-style: italic;
+  font-size: 21px;
+}
+
+
+
+.yousee{
+  margin-left: 15px;
+  text-align: justify;
+  font-size: 21px;
+}

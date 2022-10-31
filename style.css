@@ -1,0 +1,190 @@
+.p-t-8 {padding-top: 8px;}
+.p-t-31 {padding-top: 31px;}
+
+body{
+  width:100%;
+  height:100vh;
+  line-height:1.6em;
+  font-family: Arial, Roboto, sans-serif;
+  background-image: url(6.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+/**/
+
+.banner{
+width: 100%;
+height: 100%;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.banner{
+position: absolute;
+top:0;
+left: 0;
+object-fit: cover;
+width: 100%;
+height:100%;
+pointer-events: none;
+}
+
+.container{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.pane{
+  width:400px;
+  height: auto;
+  background: #fff;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+ 
+}
+
+.bg{
+  width: 100%;
+  height: 500px;
+}
+
+.content{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color:#fff;
+  text-align: center;
+  width:80%;
+  margin: auto;
+}
+
+span{
+  color: #999;
+}
+
+footer{
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  margin: 5px 0px;
+}
+
+.link{
+  width: 50%;
+  color:#666;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.link:first-child{
+  border-right: 1px solid #ccc;
+}
+
+.flipwrapper{
+  -webkit-perspective: 1000;
+  position: relative;
+}
+
+.card{
+  width: 100%;
+  height:100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 1s;
+}
+
+.face{
+  width:100%;
+  height:100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+}
+
+.back{
+  -webkit-transform: rotateY(180deg);
+}
+
+.card.flipped{
+  -webkit-transform: rotateY(180deg);
+}
+
+.signin, .signup{
+  margin-top: 30px;
+}
+
+header{
+  text-align: center;
+}
+
+
+.dp{
+  width:180px;
+  padding-top: 25px;
+
+   
+}
+
+form, .register_type{ /*BUTTONS*/
+  width: 80%;
+  margin:50px auto;
+
+  
+}
+
+.field{
+  width: 100%;
+  margin: 20px 0px;
+  
+}
+
+input, select{
+  width: 100%;
+  height:35px;
+  border: none;
+  padding-bottom: 5px;
+  border-bottom:1px solid #ccc;
+  font-size: 20px;
+  background-color: white;
+}
+
+.chkbx{
+  width: 20px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.btn{ /*BUTTONS*/
+  width:100%;
+  background: #222;
+  color:#fff;
+  border: none;
+  border-radius: 5px;
+  height:35px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all .3s ease-in;
+  font-size: 14px;
+}
+
+button a{
+  text-decoration: none;
+  color: #eee;
+}
